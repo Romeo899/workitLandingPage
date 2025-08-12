@@ -1,50 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Workit landing page</title>  
-  
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/small.png"
+    />
+    
+    <title>Workit landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <section class="bg-container">
+      <!-- Header Section -->
+      <header class="header wrapper padding mb">
+        <figure>
+          <img
+            src="assets/images/logo-light.svg"
+            alt="Workit logo for header"
+            class="header__logo"
+            width="97"
+            height="26"
+          />
+        </figure>
+        <nav class="header__nav">
+          <a href="#" class="header__link"
+            ><span class="underline">Apply for access</span></a
+          >
+        </nav>
+      </header>
+      <!-- Hero Section -->
+      <figure class="bg-pattern pattern-1">
+        <img src="assets/images/bg-pattern-1.svg" alt="" />
+      </figure>
+      <figure class="bg-pattern pattern-2">
+        <img src="assets/images/bg-pattern-2.svg" alt="" />
+      </figure>
+      <section class="hero wrapper">
+        <h1 class="hero__heading">
+          <span class="nowrap"
+            >Data <span class="underline">tailored</span> to</span
+          >
+          <br />your needs.
+        </h1>
 
-  Apply for access
+        <a href="#" class="hero__btn btn">Learn more</a>
 
-  Data tailored to your needs.
-
-  Learn more
-  
-  1
-
-  Actionable insights
-  
-  Optimize your products, improve customer satisfaction and stay ahead of the competition 
-  with our product data analytics.
-
-  2
-
-  Data-driven decisions
-
-  Make data-driven decisions with our product data analytics. Our AI-generated reports help 
-  you unlock insights hidden in your product data.
-
-  3
-
-  Always affordable
-
-  Always affordable pricing that scales with your business. Get top-quality product data 
-  analytics services without hidden costs or unexpected fees.
-
-  Be the first to test
-
-  Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
-  beta tester for our app and kickstart your company. Apply for access below and I’ll be 
-  in touch to schedule a call.
-
-  Apply for access
-
-</body>
+        <figure>
+          <img
+            src="assets/images/image-hero.webp"
+            alt=""
+            width="1534"
+            height="882"
+            class="hero__image"
+          />
+        </figure>
+      </section>
+      <div class="overlay"></div>
+    </section>
+    <main class="main bg-light-purple">
+      <div class="wrapper">
+        <section class="benefits">
+          <div class="number circle">1</div>
+          <div class="benefits__text">
+            <h2 class="benefits__heading">Actionable insights</h2>
+            <p class="benefits__desc">
+              Optimize your products, improve customer satisfaction and stay
+              ahead of the competition with our product data analytics.
+            </p>
+          </div>
+        </section>
+        <section class="benefits">
+          <div class="number circle">2</div>
+          <div class="benefits__text">
+            <h2 class="benefits__heading">Data-driven decisions</h2>
+            <p class="benefits__desc">
+              Make data-driven decisions with our product data analytics. Our
+              AI-generated reports help you unlock insights hidden in your
+              product data.
+            </p>
+          </div>
+        </section>
+        <section class="benefits">
+          <div class="number circle">3</div>
+          <div class="benefits__text">
+            <h2 class="benefits__heading">Always affordable</h2>
+            <p class="benefits__desc">
+              Always affordable pricing that scales with your business. Get
+              top-quality product data analytics services without hidden costs
+              or unexpected fees.
+            </p>
+          </div>
+        </section>
+        <!-- <section class="curve-light-purple"></section> -->
+      </div>
+      <div class="overlay"></div>
+    </main>
+    <section class="founder">
+      <div class="founder__card wrapper">
+        <figure class="founder__image">
+          <img
+            src="assets/images/image-founder.webp"
+            alt="image of the founder of the app"
+            width="954"
+            height="954"
+          />
+        </figure>
+        <section class="founder__card_content">
+          <h2 class="founder__heading">Be the first to test</h2>
+          <p class="founder__text">
+            Hi, I'm Louis Graham, the founder of the company. Book a demo call
+            with me to become a beta tester for our app and kickstart your
+            company. Apply for access below and I’ll be in touch to schedule a
+            call.
+          </p>
+          <a href="#" class="founder__btn btn">Apply for access</a>
+          <figure class="bg-pattern pattern-3">
+            <img src="assets/images/bg-pattern-3.svg" alt="" />
+          </figure>
+        </section>
+      </div>
+    </section>
+    <footer class="footer">
+      <figure class="footer__logo">
+        <img
+          src="assets/images/logo-dark.svg"
+          alt="Workit logo for footer"
+          width="97"
+          height="26"
+        />
+      </figure>
+      <div class="footer__social_links">
+        <a href="#" class="footer__facebook"
+          ><figure>
+            <img
+              src="assets/images/icon-facebook.svg"
+              alt=""
+              width="20"
+              height="20"
+            /></figure
+        ></a>
+        <a href="#" class="footer__twitter"
+          ><figure>
+            <img
+              src="assets/images/icon-twitter.svg"
+              alt=""
+              width="20"
+              height="17"
+            /></figure
+        ></a>
+        <a href="#" class="footer__insta"
+          ><figure>
+            <img
+              src="assets/images/icon-instagram.svg"
+              alt=""
+              width="20"
+              height="20"
+            /></figure
+        ></a>
+      </div>
+    </footer>
+  </body>
 </html>
