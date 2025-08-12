@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Romeo899/workitLandingPage)
-- Live Site URL: [Add live site URL here](https://workitlandingpagerc.netlify.app/)
+- Solution URL: [Workit Landing Page Github repo](https://github.com/Romeo899/workitLandingPage)
+- Live Site URL: [Workit Landing Page live site](https://workitlandingpagerc.netlify.app/)
 
 ### Built with
 
